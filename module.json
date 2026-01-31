@@ -1,0 +1,21 @@
+{
+  "id": "gwf-d12-rue",
+  "title": "GWF d12 Reroll (Rue Only)",
+  "description": "Adds a button to dnd5e core damage rolls for actor Rue to reroll 1s and 2s on d12 damage dice (reroll once).",
+  "version": "1.0.0",
+  "authors": [
+    { "name": "local" }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "esmodules": [
+    "scripts/gwf-d12-rue.js"
+  ],
+  "relationships": {
+    "systems": [
+      { "id": "dnd5e", "type": "system" }
+    ]
+  }
+}
